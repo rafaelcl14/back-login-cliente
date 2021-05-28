@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "logins",
+  "info": {
+    "name": "Logins",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "unique": true
+    },
+    "password": {
+      "type": "string"
+    },
+    "drive": {
+      "type": "string"
+    }
+  }
+}
